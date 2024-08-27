@@ -14,6 +14,14 @@ jobs:
           submodules: true  # 如果你有子模块
           fetch-depth: 0  # 获取整个历史记录，以便版本控制工作
 
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20 # 或者你想要的 Node.js 版本
+      
+      - name: Install specific version of npm
+        run: npm install -g npm@10.8.2 # 或者你想要的npm版本
+
       - name: Build Docs
         run: |
           npm ci
