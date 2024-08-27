@@ -19,6 +19,9 @@ jobs:
           npm ci
           npm run docs:build
       
+      - name: Check .vuepress/dist Directory
+        run: ls -la .vuepress/dist # 这一步是为了确认目录中是否有文件
+      
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
