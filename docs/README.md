@@ -91,7 +91,7 @@ config:
 <h2 style="text-align: center;margin: 32px 0 32px">开源项目</h2>
 
 <CardGrid>
-  <RepoCard repo="OneOS/OneOS" />
+  <RepoCard repo="kaxhh/sweetsnow" />
   <RepoCard repo="kaxhh/beautyOS" />
   <RepoCard repo="xuxeu/xuxeu.github.io" />
 </CardGrid>
