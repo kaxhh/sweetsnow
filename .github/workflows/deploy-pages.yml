@@ -26,4 +26,5 @@ jobs:
           publish_dir: ./.vuepress/dist
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
-          branch: gh-pages # 明确指定部署到 gh-pages 分支
+          publish_branch: gh-pages # 明确指定部署到 gh-pages 分支
+          force_orphan: true # 如果你希望删除 gh-pages 分支上的所有其他文件
