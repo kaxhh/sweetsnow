@@ -7,14 +7,18 @@
     "docs:test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:clean": "vuepress dev docs --clean-cache",
     "docs:update-package": "pnpm dlx vp-update"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "kaxhh",
+  "license": "MIT",
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.14",
-    "vuepress-theme-plume": "^1.0.0-rc.88"
+    "@vuepress/plugin-baidu-analytics": "2.0.0-rc.40",
+    "@vuepress/plugin-google-analytics": "2.0.0-rc.37",
+    "vuepress-theme-plume": "^1.0.0-rc.88",
+    "tsconfig-vuepress": "^4.5.0",
+    "typescript": "^5.5.4"
   }
 }
