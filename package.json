@@ -1,0 +1,20 @@
+{
+  "name": "sweetsnow",
+  "version": "1.0.0",
+  "description": "document online",
+  "main": "index.js",
+  "scripts": {
+    "docs:test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.14",
+    "vuepress-theme-plume": "^1.0.0-rc.88"
+  }
+}
